@@ -1,71 +1,76 @@
-@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Kalam&display=swap");
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 :root {
-    --primary: #F2C94C;
-    --black: #333333;
-    --width-break:600px
+  --primary: #f2c94c;
+  --black: #333333;
+  --width-break: 600px;
 }
 
 body {
-    margin: 0;
-    font-family: 'Kalam', cursive;
-    color: #333333;
+  margin: 0;
+  font-family: "Kalam", cursive;
+  color: #333333;
 }
 
 nav {
-    background-color: var(--primary);
-    text-align: center;
+  background-color: var(--primary);
+  text-align: center;
 }
 
 main {
-    margin: auto;
-    padding: 1rem;
-    max-width: var(--width-break);
+  margin: auto;
+  padding: 1rem;
+  max-width: var(--width-break);
 }
 
 textarea {
-    box-sizing: border-box;
-    display: block;
-    width: 100%;
-    min-height: 20vh;
-    margin-top: 2rem;
-    font-size: large;
-    font-family: inherit;
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  min-height: 20vh;
+  margin-top: 2rem;
+  font-size: large;
+  font-family: inherit;
 }
 
 button {
-    background-color: var(--primary);
-    border: none;
-    margin: 1rem 0rem;
-    padding: 1rem 2rem;
-    font-family: 'Kalam', cursive;
-    font-size: large;
+  background-color: var(--primary);
+  border: none;
+  margin: 1rem 0rem;
+  padding: 1rem 2rem;
+  font-family: "Kalam", cursive;
+  font-size: large;
 }
-
 
 #translate-output {
-    box-sizing: border-box;
-    width: 100%;
-    min-height: 10vh;
-    max-height: 20vh;
-    overflow:scroll;
-    border: 1px solid var(--black);
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 10vh;
+  max-height: 20vh;
+  overflow: scroll;
+  border: 1px solid var(--black);
 }
 
-footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    padding: 1rem;
-    background-color: var(--primary);
-    text-align: center;
+.footer {
+  background-color: var(--primary);
 }
-
-footer p {
-    max-width: var(--width-break);
-    margin: auto;
+.footer p {
+  text-align: center;
+}
+.footer ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer ul li {
+  padding: 1.2rem 1rem;
+  list-style-type: none;
+}
+.footer ul li a {
+  color: black;
+  text-decoration: none;
 }

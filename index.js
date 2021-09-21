@@ -10,7 +10,6 @@ function getTranslationUrl(input){
 }
 
 function clickHandler(){
-    // txtoutput.innerText = "gbsjdgjxf" + txtinput.value;
     var inputTxt = txtinput.value; //taking input
    
     //calling server for processing
